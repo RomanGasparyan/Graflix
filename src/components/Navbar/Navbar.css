@@ -210,7 +210,7 @@
 @media (max-width: 414px) {
   .navbar-right {
     margin-left: -50px;
-    gap: 11px;
+    gap: 12px;
   }
 
   .navbar-right .profile {
@@ -225,7 +225,7 @@
   }
 
   .box:hover input {
-    width: 80px;
+    width: 90px;
   }
 
   .navbar img {
@@ -241,12 +241,12 @@
 @media (max-width: 390px) {
   .navbar-right {
     margin-left: -50px;
-    gap: 11px;
+    gap: 12px;
   }
 
   .box {
     .box:hover input {
-      width: 80px;
+      width: 90px;
     }
   }
   .navbar img {
@@ -259,7 +259,7 @@
 @media (max-width: 375px) {
   .navbar-right {
     margin-left: -50px;
-    gap: 11px;
+    gap: 12px;
   }
 
   .navbar-right .icons {
@@ -273,7 +273,7 @@
     padding: 6px 7px;
   }
   .box:hover input {
-    width: 80px;
+    width: 90px;
   }
   .navbar-right .profile {
     width: 27px;
@@ -297,7 +297,7 @@
   }
 
   .box:hover input {
-    width: 80px;
+    width: 90px;
   }
 
   .navbar img {
