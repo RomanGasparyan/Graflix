@@ -23,7 +23,6 @@ const TitleCards = ({ title, category }) => {
           return (
             <Link to={`/player/${card.id}`} className="card" key={index}>
               <img src={card.image} alt="" />
-              <p>{card.name}</p>
             </Link>
           );
         })}

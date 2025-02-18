@@ -205,16 +205,19 @@
   .navbar-right .profile {
     width: 27px;
   }
+  .navbar img {
+    width: 169px;
+    top: -61px;
+    left: -15px;
+  }
+  .box:hover input {
+    width: 90px;
+  }
 }
 
 @media (max-width: 414px) {
   .navbar-right {
     margin-left: -50px;
-    gap: 12px;
-  }
-
-  .navbar-right .profile {
-    width: 27px;
   }
 
   .navbar-right .profile {
@@ -223,43 +226,36 @@
   .box {
     padding: 7px;
   }
-
-  .box:hover input {
-    width: 90px;
-  }
-
-  .navbar img {
-    width: 142px;
-    top: -46px;
-    left: -15px;
-  }
   .navbar-right .profile {
     width: 27px;
+  }
+  .navbar img {
+    width: 169px;
+    top: -61px;
+    left: -15px;
+  }
+  .box:hover input {
+    width: 90px;
   }
 }
 
 @media (max-width: 390px) {
   .navbar-right {
     margin-left: -50px;
-    gap: 12px;
-  }
-
-  .box {
-    .box:hover input {
-      width: 90px;
-    }
   }
   .navbar img {
-    width: 142px;
-    top: -46px;
+    width: 169px;
+    top: -61px;
     left: -15px;
+  }
+  .box:hover input {
+    width: 90px;
   }
 }
 
 @media (max-width: 375px) {
   .navbar-right {
     margin-left: -50px;
-    gap: 12px;
   }
 
   .navbar-right .icons {
@@ -272,17 +268,16 @@
   .box {
     padding: 6px 7px;
   }
-  .box:hover input {
-    width: 90px;
-  }
   .navbar-right .profile {
     width: 27px;
   }
-
   .navbar img {
-    width: 142px;
-    top: -46px;
+    width: 169px;
+    top: -61px;
     left: -15px;
+  }
+  .box:hover input {
+    width: 90px;
   }
 }
 @media (max-width: 360px) {
@@ -295,14 +290,12 @@
   .navbar-right {
     margin-left: -76px;
   }
-
+  .navbar img {
+    width: 169px;
+    top: -61px;
+    left: -15px;
+  }
   .box:hover input {
     width: 90px;
-  }
-
-  .navbar img {
-    width: 142px;
-    top: -46px;
-    left: -15px;
   }
 }
