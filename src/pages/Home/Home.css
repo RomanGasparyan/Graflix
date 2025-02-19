@@ -69,6 +69,8 @@
   .hero-btns {
     margin-bottom: 30px;
   }
+  .hero-caption p {
+  }
 }
 
 @media (max-width: 800px) {
@@ -91,20 +93,21 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .hero-caption p {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 26px;
-    width: 462px;
+    width: 507px;
   }
 }
-
-@media (max-width: 500px) {
+@media (max-width: 533px) {
   .hero-caption p {
     font-size: 10px;
     margin-bottom: 10px;
     width: 289px;
   }
+}
+@media (max-width: 500px) {
   .caption-img {
     display: none;
   }
@@ -122,7 +125,7 @@
   .hero-caption p {
     font-size: 10px;
     margin-bottom: 10px;
-    width: 289px;
+    width: 381px;
   }
 }
 
@@ -130,10 +133,16 @@
   .hero-caption p {
     font-size: 11px;
     margin-bottom: 11px;
-    width: 318px;
+    width: 245px;
   }
 }
-
+@media (max-width: 390px) {
+  .hero-caption p {
+    font-size: 9px;
+    margin-bottom: 10px;
+    width: 352px;
+  }
+}
 @media (max-width: 375px) {
   .hero-caption p {
     font-size: 9px;

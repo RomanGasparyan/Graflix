@@ -20,20 +20,10 @@ const Home = () => {
             Երգարան,Աստվածաշունչ,կենսագրություններ,պատմական տվյալներ եւ ուրիշ
             շատ բաներ:
           </p>
-          {/* <div className="hero-btns">
-            <button className="btn">
-              <img src={play_icon} alt="play_icon" />
-              Play
-            </button>
-            <button className="btn dark-btn">
-              <img src={info_icon} alt="play_icon" />
-              More Info
-            </button>
-          </div> */}
-          <TitleCards />
         </div>
       </div>
       <div className="more-cards">
+        <TitleCards />
         <TitleCards title={"Նոր Կտակարան"} />
         <TitleCards title={"Հին Կտակարան"} />
         <TitleCards title={"Հավատքի հայրեր"} />
