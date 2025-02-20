@@ -64,7 +64,7 @@
 }
 
 .box {
-  height: 30px;
+  height: 41px;
   display: flex;
   cursor: pointer;
   padding: 19px 11px;
@@ -95,6 +95,9 @@
   padding: 4px;
   margin: 26px;
   cursor: pointer;
+}
+.inc {
+  margin-top: 330px;
 }
 
 @media (max-width: 1333px) {
@@ -163,7 +166,7 @@
   }
 
   .navbar-right .profile {
-    width: 20px;
+    width: 34px;
   }
   .box {
     padding: 6px 7px;
@@ -189,7 +192,7 @@
     padding: 6px 7px;
   }
   .navbar-right .profile {
-    width: 27px;
+    width: 34px;
   }
   .logo {
     width: 169px;
@@ -198,6 +201,9 @@
   }
   .box:hover input {
     width: 90px;
+  }
+  .box {
+    padding: 10px 13px;
   }
 }
 
@@ -213,7 +219,7 @@
     padding: 7px;
   }
   .navbar-right .profile {
-    width: 27px;
+    width: 34px;
   }
   .logo {
     width: 169px;
@@ -222,6 +228,9 @@
   }
   .box:hover input {
     width: 90px;
+  }
+  .box {
+    padding: 10px 13px;
   }
 }
 
@@ -229,6 +238,9 @@
   .navbar-right {
     margin-left: -50px;
   }
+  .navbar-right .profile {
+    width: 34px;
+  }
   .logo {
     width: 169px;
     top: -61px;
@@ -236,6 +248,9 @@
   }
   .box:hover input {
     width: 90px;
+  }
+  .box {
+    padding: 10px 13px;
   }
 }
 
@@ -255,7 +270,7 @@
     padding: 6px 7px;
   }
   .navbar-right .profile {
-    width: 27px;
+    width: 34px;
   }
   .logo {
     width: 169px;
@@ -265,22 +280,38 @@
   .box:hover input {
     width: 90px;
   }
+  .box {
+    padding: 10px 13px;
+  }
 }
 @media (max-width: 360px) {
   .navbar-right {
     margin-left: -56px;
   }
-}
 
+  .navbar-right .profile {
+    width: 34px;
+  }
+  .box {
+    padding: 10px 13px;
+  }
+}
 @media (max-width: 344px) {
   .navbar-right {
     margin-left: -76px;
+  }
+  .navbar-right .profile {
+    width: 34px;
   }
   .logo {
     width: 169px;
     top: -61px;
     left: -15px;
   }
+  .box {
+    padding: 10px 13px;
+  }
+
   .box:hover input {
     width: 90px;
   }

@@ -125,7 +125,7 @@
   .hero-caption p {
     font-size: 10px;
     margin-bottom: 10px;
-    width: 381px;
+    width: 224px;
   }
 }
 
@@ -133,20 +133,20 @@
   .hero-caption p {
     font-size: 11px;
     margin-bottom: 11px;
-    width: 245px;
+    width: 224px;
   }
 }
 @media (max-width: 390px) {
   .hero-caption p {
     font-size: 9px;
     margin-bottom: 10px;
-    width: 352px;
+    width: 224px;
   }
 }
 @media (max-width: 375px) {
   .hero-caption p {
     font-size: 9px;
     margin-bottom: 10px;
-    width: 253px;
+    width: 224px;
   }
 }

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./TitleCards.css";
-import cards_data from "../../assets/cards/Cards_data";
+
+import cards_data3 from "../../assets/card3/Cards_data3";
 import { Link } from "react-router-dom";
 
 const TitleCards = ({ title, category }) => {
@@ -19,7 +20,7 @@ const TitleCards = ({ title, category }) => {
     <div className="title-cards">
       <h2>{title}</h2>
       <div className="card-list" ref={cardsRef}>
-        {cards_data.map((card, index) => {
+        {cards_data3.map((card, index) => {
           return (
             <Link to={`/player/${card.id}`} className="card" key={index}>
               <img src={card.image} alt="card" />

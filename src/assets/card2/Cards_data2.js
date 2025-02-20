@@ -1,8 +1,8 @@
-import card_img1 from "./card1.jpg";
-import card_img2 from "./card2.jpg";
-import card_img3 from "./card3.jpg";
-import card_img4 from "./card4.jpg";
-// import card_img5 from "./card5.jpg";
+import esaya from "./esaya.jpg";
+import hesu from "./hesu.jpg";
+import sofonia from "./sofonia.jpg";
+import sud from "./sud.jpg";
+import daniel from "./daniel.jpg";
 // import card_img6 from "./card6.jpg";
 // import card_img7 from "./card7.jpg";
 // import card_img8 from "./card8.jpg";
@@ -13,27 +13,27 @@ import card_img4 from "./card4.jpg";
 // import card_img13 from "./card13.jpg";
 // import card_img14 from "./card14.jpg";
 
-const cards_data = [
+const cards_data2 = [
   {
-    image: card_img1,
+    image: esaya,
     name: "Մատթեոսի Ավետարան",
   },
   {
-    image: card_img2,
+    image: hesu,
     name: "Մարկոսի ավետարան",
   },
   {
-    image: card_img3,
+    image: sofonia,
     name: "Ղուկասի Ավետարան",
   },
   {
-    image: card_img4,
+    image: sud,
     name: "Յովհաննու Ավետարան",
   },
-  // {
-  //   image: card_img5,
-  //   name: "Հեսու",
-  // },
+  {
+    image: daniel,
+    name: "Հեսու",
+  },
   // {
   //   image: card_img6,
   //   name: "Lucifer",
@@ -72,4 +72,4 @@ const cards_data = [
   // },
 ];
 
-export default cards_data;
+export default cards_data2;

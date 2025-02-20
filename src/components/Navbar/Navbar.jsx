@@ -61,15 +61,6 @@ const Navbar = () => {
             alt="icons"
           />
 
-          {/* <div className="dropdown">
-            <p>Երգարան</p>
-            <p>Հայոց հայրեր </p>
-            <p>Եկեղեցու պատմությունը </p>
-            <p>Նոր Կտակարան </p>
-            <p>Հին Կտակարան</p>
-            <p>Լսել </p>
-          </div> */}
-
           {/* mobile menu */}
 
           <div
@@ -122,6 +113,7 @@ const Navbar = () => {
               >
                 Հին Կտակարան
               </a>
+
               <a
                 onClick={() => setShowMobileMenu(false)}
                 href="#Testimonails"
@@ -130,6 +122,10 @@ const Navbar = () => {
                 Լսել Աստվածաշունչը
               </a>
             </ul>
+
+            <p className="inc  text-center mt-50px font-bold ">
+              © 2025 Graflix ™, Inc.
+            </p>
           </div>
         </div>
       </div>

@@ -2,10 +2,11 @@ import React from "react";
 import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
 import hero_bannerpavel from "../../assets/pavel.jpg";
-import hero_title from "../../assets/hero_title.png";
-import play_icon from "../../assets/play_icon.png";
-import info_icon from "../../assets/info_icon.png";
+
 import TitleCards from "../../components/TitleCards/TitleCards";
+import TitleCards2 from "../../components/TitleCards2/TitleCards";
+import TitleCards3 from "../../components/TitleCards3/TitleCards";
+
 import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
@@ -23,11 +24,14 @@ const Home = () => {
         </div>
       </div>
       <div className="more-cards">
-        <TitleCards />
-        <TitleCards title={"Նոր Կտակարան"} />
+        <TitleCards title={"Հիմնականը Graflix-ում"} />
+        <TitleCards2 title={"Հին Կտակարան"} />
+        <TitleCards3 title={"Հավատքի հայրեր"} />
+
+        {/* <TitleCards title={"Նոր Կտակարան"} />
         <TitleCards title={"Հին Կտակարան"} />
         <TitleCards title={"Հավատքի հայրեր"} />
-        <TitleCards title={"Եկեղեցու պատմություն"} />
+        <TitleCards title={"Եկեղեցու պատմություն"} /> */}
       </div>
       <Footer />
     </div>
