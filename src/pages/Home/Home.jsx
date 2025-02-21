@@ -16,10 +16,13 @@ const Home = () => {
       <div className="hero">
         <img src={hero_bannerpavel} alt="pavel" className="banner-img" />
         <div className="hero-caption">
-          <p>
-            Լավագույն հոգեւոր նյութերի հավաքածու Հայ Քրիստոնիայի համար՝
-            Երգարան,Աստվածաշունչ,կենսագրություններ,պատմական տվյալներ եւ ուրիշ
-            շատ բաներ:
+          <p
+            data-aos="fade-left"
+            data-aos-delay="600"
+            data-aos-offset="0"
+            className="hero-p"
+          >
+            Լավագույն հոգեւոր նյութերի հավաքածու Հայ Քրիստոնիայի համար:
           </p>
         </div>
       </div>

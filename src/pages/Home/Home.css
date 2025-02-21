@@ -17,13 +17,19 @@
   max-width: 420px;
   margin-bottom: 30px;
 }
-.hero-caption p {
-  max-width: 700px;
-  font-size: 20px;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
+/* .hero-caption p {
+  display: flex;
+  justify-content: center;
+} */
+
+.hero-p {
+  max-width: 800px;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 20px;
   font-weight: 600;
 }
+
 .hero-caption span {
   background: rgba(26, 114, 230, 0.441);
 }
@@ -81,9 +87,9 @@
     margin-bottom: 10px;
     width: 40%;
   }
-  .hero-caption p {
+  .hero-p {
     font-size: 12px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
   .hero-btns .btn img {
     width: 20px;
@@ -94,16 +100,16 @@
 }
 
 @media (max-width: 770px) {
-  .hero-caption p {
+  .hero-p {
     font-size: 14px;
-    margin-bottom: 26px;
+    /* margin-bottom: 26px; */
     width: 507px;
   }
 }
 @media (max-width: 533px) {
-  .hero-caption p {
+  .hero-p {
     font-size: 10px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     width: 289px;
   }
 }
@@ -122,31 +128,31 @@
 }
 
 @media (max-width: 430px) {
-  .hero-caption p {
+  .hero-p {
     font-size: 10px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     width: 224px;
   }
 }
 
 @media (max-width: 414px) {
-  .hero-caption p {
+  .hero-p {
     font-size: 11px;
-    margin-bottom: 11px;
-    width: 224px;
+    /* margin-bottom: 11px; */
+    width: 350px;
   }
 }
 @media (max-width: 390px) {
-  .hero-caption p {
-    font-size: 9px;
-    margin-bottom: 10px;
-    width: 224px;
+  .hero-p {
+    font-size: 12px;
+
+    width: 300px;
   }
 }
 @media (max-width: 375px) {
-  .hero-caption p {
+  /* .hero-caption p {
     font-size: 9px;
     margin-bottom: 10px;
     width: 224px;
-  }
+  } */
 }

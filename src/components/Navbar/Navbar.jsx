@@ -34,7 +34,14 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div ref={navRef} className="navbar">
+    <div
+      data-aos="fade-down"
+      data-aos-delay="600"
+      data-aos-offset="0"
+      // className="navbar absolute bottom-0 left-0 w-full"
+      ref={navRef}
+      className="navbar"
+    >
       <div className="navbar-left">
         <img className="logo" src={logo} alt="" />
 
