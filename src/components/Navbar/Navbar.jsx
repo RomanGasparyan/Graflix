@@ -35,15 +35,22 @@ const Navbar = () => {
 
   return (
     <div
-      data-aos="fade-down"
-      data-aos-delay="600"
-      data-aos-offset="0"
+      // data-aos="fade-down"
+      // data-aos-delay="600"
+      // data-aos-offset="0"
       // className="navbar absolute bottom-0 left-0 w-full"
       ref={navRef}
       className="navbar"
     >
       <div className="navbar-left">
-        <img className="logo" src={logo} alt="" />
+        <img
+          data-aos="fade-down"
+          data-aos-delay="600"
+          data-aos-offset="0"
+          className="logo"
+          src={logo}
+          alt=""
+        />
 
         <ul>
           <li>Երգարան</li>
@@ -55,7 +62,12 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-right">
-        <div className="box">
+        <div
+          data-aos="fade-down"
+          data-aos-delay="600"
+          data-aos-offset="0"
+          className="box"
+        >
           <input type="text" placeholder="Գտնել..." />
           <img className="icons" src={search_icon} alt="icons" />
         </div>
