@@ -6,6 +6,7 @@ import hero_bannerpavel from "../../assets/pavel.jpg";
 import TitleCards from "../../components/TitleCards/TitleCards";
 import TitleCards2 from "../../components/TitleCards2/TitleCards";
 import TitleCards3 from "../../components/TitleCards3/TitleCards";
+import TitleCards4 from "../../components/TitleCards4/TitleCards";
 
 import Footer from "../../components/Footer/Footer";
 
@@ -28,8 +29,9 @@ const Home = () => {
       </div>
       <div className="more-cards">
         <TitleCards title={"Հիմնականը Graflix-ում"} />
-        <TitleCards2 title={"Հին Կտակարան"} />
+        <TitleCards4 title={"Նոր  Կտակարան"} />
         <TitleCards3 title={"Հավատքի հայրեր"} />
+        <TitleCards2 title={"Հին Կտակարան"} />
 
         {/* <TitleCards title={"Նոր Կտակարան"} />
         <TitleCards title={"Հին Կտակարան"} />
