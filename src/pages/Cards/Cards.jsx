@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import "./TitleCards.css";
 import cards_data from "../../assets/cards/Cards_data";
-import { Link } from "react-router-dom";
 
-const TitleCards = ({ title, category }) => {
+const Cards = ({ title }) => {
   const cardsRef = useRef();
 
   const handleWheel = (event) => {
@@ -21,8 +21,8 @@ const TitleCards = ({ title, category }) => {
       <div className="card-list" ref={cardsRef}>
         {cards_data.map((card, index) => {
           return (
-            <Link to={`/player/${card.id}`} className="card" key={index}>
-              <img src={card.image} alt="card" />
+            <Link to={`/player/${index}`} className="card" key={index}>
+              <img src={card.image} index={index} alt="card" />
             </Link>
           );
         })}
@@ -31,4 +31,4 @@ const TitleCards = ({ title, category }) => {
   );
 };
 
-export default TitleCards;
+export default Cards;
