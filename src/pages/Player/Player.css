@@ -7,11 +7,6 @@
   position: fixed;
   font-size: 14px;
   color: #e5e5e5;
-  background-image: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.7) 10%,
-    transparent
-  );
   z-index: 1;
 }
 .player_arrow {
@@ -19,6 +14,9 @@
 }
 .player_title {
   font-size: 56px;
+  text-align: center;
+  padding: 50px;
+  background-image: linear-gradient(to left, #00ffff, #000099, #00ffff);
 }
 
 .player_input {
@@ -27,7 +25,7 @@
   display: flex;
   cursor: pointer;
   padding: 23px 14px;
-  background: #171717;
+  background: #f8f6f6;
   border-radius: 20px;
   align-items: center;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -40,7 +38,29 @@
   height: 28px;
 }
 .player_input input::placeholder {
-  color: #fff;
+  color: #00000094;
+}
+.container {
+  max-width: 1024px;
+
+  margin: 0 auto;
+  padding: 30px 15px 30px;
+}
+.button_inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+
+  background: transparent;
+  border: 2px solid#fff;
+  border-radius: 8px;
+  background-size: 250%;
+  background-image: linear-gradient(to left, #00ffff, #000099, #00ffff);
 }
 
 /* ++++++++++++++++++++MOBILE+++++++++++++++++++++++++++++++++++ */
@@ -109,14 +129,14 @@
     width: 80px;
     height: 28px;
 
-    padding: 14px 10px;
+    padding: 16px 12px;
   }
   .player_input input {
     font-size: 10px;
   }
   .search_icons {
     height: 15px;
-    transform: translateX(-70px);
+    transform: translateX(-45px);
   }
 }
 
