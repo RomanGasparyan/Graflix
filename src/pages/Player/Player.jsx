@@ -4,10 +4,8 @@ import "./Player.css";
 import back_arrow_icon from "../../assets/back_arrow_icon.png";
 import { useNavigate, useParams } from "react-router-dom";
 import { himnacanner } from "../../assets/himnacanList";
-import { FaSearch } from "react-icons/fa";
+//import { FaSearch } from "react-icons/fa";
 import search_icon from "../../assets/search_icon.svg";
-
-import { button_Data } from "../../assets/buttonData";
 
 const Player = () => {
   const navigate = useNavigate();
@@ -37,23 +35,17 @@ const Player = () => {
           className="player_input"
         >
           <input type="text" placeholder="Գտնել" />
+
           <img className="search_icons" src={search_icon} alt="icons" />
         </div>
       </div>
-      <h1
-        data-aos="fade-down"
-        data-aos-delay="100"
-        data-aos-offset="0"
-        className="player_title"
-      >
-        {himnacan.title}
-      </h1>
+      <h1 className="player_title">{himnacan.title}</h1>
 
       <div className="container">
         <div className="button_inner">
-          {button_Data.map((item) => (
-            <button type="button" className="btn btn1">
-              {item.title}
+          {himnacan.btns.map((item) => (
+            <button type="button" className="btn">
+              {item}
             </button>
           ))}
         </div>

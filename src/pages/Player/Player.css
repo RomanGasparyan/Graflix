@@ -13,9 +13,12 @@
   height: 68px;
 }
 .player_title {
+  z-index: 5;
   font-size: 56px;
+  font-weight: 600;
   text-align: center;
-  padding: 50px;
+  padding-top: 63px;
+  padding-bottom: 20px;
   background-image: linear-gradient(to left, #00ffff, #000099, #00ffff);
 }
 
@@ -33,10 +36,12 @@
 .player_input input {
   outline: 0;
   border: 0;
+  color: black;
 }
 .search_icons {
   height: 28px;
 }
+
 .player_input input::placeholder {
   color: #00000094;
 }
@@ -48,14 +53,21 @@
 }
 .button_inner {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
 }
 .btn {
-  padding: 10px 20px;
+  width: 50px;
+  height: 50px;
+
   border: none;
   outline: none;
-
+  cursor: pointer;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: transparent;
   border: 2px solid#fff;
   border-radius: 8px;
@@ -115,7 +127,7 @@
   }
   .search_icons {
     height: 15px;
-    transform: translateX(-50px);
+    transform: translateX(-35px);
   }
 }
 @media (max-width: 390px) {
@@ -136,7 +148,7 @@
   }
   .search_icons {
     height: 15px;
-    transform: translateX(-45px);
+    transform: translateX(-35px);
   }
 }
 
