@@ -2,14 +2,14 @@ import React from "react";
 import "./Player.css";
 
 import back_arrow_icon from "../../assets/back_arrow_icon.png";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { himnacanner } from "../../assets/himnacanList";
 //import { FaSearch } from "react-icons/fa";
 import search_icon from "../../assets/search_icon.svg";
 
 const Player = () => {
   const navigate = useNavigate();
-  const { id } = useParams();
+  const { id, number } = useParams();
 
   const himnacan = himnacanner[id];
 
@@ -24,7 +24,7 @@ const Player = () => {
           src={back_arrow_icon}
           alt="icon"
           onClick={() => {
-            navigate(-1);
+            navigate(`/`);
           }}
         />
 
@@ -43,12 +43,22 @@ const Player = () => {
 
       <div className="container">
         <div className="button_inner">
-          {himnacan.btns.map((item) => (
-            <button type="button" className="btn">
-              {item}
-            </button>
-          ))}
+          {himnacan.desc.map((item, index) => {
+            return (
+              <Link
+                to={`/player/${id}/chapter/${index}`}
+                className="btn"
+                key={index}
+              >
+                <button type="button" index={index}>
+                  {index + 1}
+                </button>
+              </Link>
+            );
+          })}
         </div>
+
+        <div className="desc">{himnacan.desc[number]}</div>
       </div>
 
       {/* <iframe

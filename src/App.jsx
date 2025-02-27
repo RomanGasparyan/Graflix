@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Home from "./pages/Home/Home";
 import { Routes, Route } from "react-router-dom";
-// import Login from "./pages/Login/Login";
+
 import Player from "./pages/Player/Player";
 import Cards from "./pages/Cards/Cards";
 import AOS from "aos";
@@ -21,6 +21,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/cards" element={<Cards />} />
         <Route path="/player/:id" element={<Player />} />
+        <Route path="/player/:id/chapter/:number" element={<Player />} />
       </Routes>
     </div>
   );
