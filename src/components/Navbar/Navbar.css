@@ -16,6 +16,7 @@
 .navbar-left {
   display: flex;
   align-items: center;
+  margin-left: 50px;
 
   /* position: relative; */
 }
@@ -65,7 +66,7 @@
 }
 
 .box {
-  height: 41px;
+  height: 33px;
   display: flex;
   cursor: pointer;
   padding: 19px 11px;
@@ -220,7 +221,7 @@
     padding: 7px;
   }
   .navbar-right .profile {
-    width: 34px;
+    width: 30px;
   }
   .logo {
     width: 169px;
@@ -231,7 +232,7 @@
     width: 90px;
   }
   .box {
-    padding: 10px 13px;
+    padding: 8px;
   }
 }
 
@@ -240,7 +241,7 @@
     margin-left: -50px;
   }
   .navbar-right .profile {
-    width: 34px;
+    width: 29px;
   }
   .logo {
     width: 169px;
@@ -251,7 +252,7 @@
     width: 90px;
   }
   .box {
-    padding: 10px 13px;
+    padding: 8px;
   }
 }
 
@@ -271,7 +272,7 @@
     padding: 6px 7px;
   }
   .navbar-right .profile {
-    width: 34px;
+    width: 29px;
   }
   .logo {
     width: 169px;
@@ -282,7 +283,7 @@
     width: 90px;
   }
   .box {
-    padding: 10px 13px;
+    padding: 8px 9px;
   }
 }
 @media (max-width: 360px) {
@@ -291,7 +292,7 @@
   }
 
   .navbar-right .profile {
-    width: 34px;
+    width: 29px;
   }
   .box {
     padding: 10px 13px;
@@ -302,7 +303,7 @@
     margin-left: -76px;
   }
   .navbar-right .profile {
-    width: 34px;
+    width: 29px;
   }
   .logo {
     width: 169px;
@@ -310,7 +311,7 @@
     left: -15px;
   }
   .box {
-    padding: 10px 13px;
+    padding: 8px;
   }
 
   .box:hover input {

@@ -16,6 +16,7 @@ const Home = () => {
       <Navbar />
       <div className="hero">
         <img src={hero_bannerpavel} alt="pavel" className="banner-img" />
+
         <div className="hero-caption">
           <p
             data-aos="fade-left"
@@ -25,8 +26,10 @@ const Home = () => {
           >
             Լավագույն հոգեւոր նյութերի հավաքածու Հայ Քրիստոնիայի համար:
           </p>
+          <p>Проверка связи</p>
         </div>
       </div>
+
       <div className="more-cards">
         <Cards title={"Հիմնականը Graflix-ում"} />
         <Cards4 title={"Նոր  Կտակարան"} />
