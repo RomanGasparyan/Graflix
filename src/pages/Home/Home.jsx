@@ -1,44 +1,55 @@
 import React from "react";
-import "./Home.css";
+
+import Hero from "../../components/Hero/Hero";
 import Navbar from "../../components/Navbar/Navbar";
-import hero_bannerpavel from "../../assets/pavel.jpg";
-
-import Cards from "../Cards/Cards";
-import Cards2 from "../Cards2/Cards2";
-import Cards3 from "../Cards3/Cards3";
-import Cards4 from "../Cards4/Cards4";
-
 import Footer from "../../components/Footer/Footer";
+import CardsList from "../../components/CardsList/CardsList";
+import Card from "../../components/Card/Card";
+
+import booksData from "./../../books";
+import "./Home.css";
 
 const Home = () => {
-  return (
-    <div className="home">
-      <Navbar />
-      <div className="hero">
-        <img src={hero_bannerpavel} alt="pavel" className="banner-img" />
+	/* Function to get Books by category */
+	const getBooks = (booksData, category, title) => {
+		let booksByCategory = booksData.filter(
+			(book) => book.category == category
+		);
 
-        <div className="hero-caption">
-          <p
-            data-aos="fade-left"
-            data-aos-delay="600"
-            data-aos-offset="0"
-            className="hero-p"
-          >
-            Լավագույն հոգեւոր նյութերի հավաքածու Հայ Քրիստոնիայի համար:
-          </p>
-          <p>Проверка связи</p>
-        </div>
-      </div>
+		const booksMarkup = booksByCategory.map((book, index) => {
+			return <Card data={book} key={index} />;
+		});
 
-      <div className="more-cards">
-        <Cards title={"Հիմնականը Graflix-ում"} />
-        <Cards4 title={"Նոր  Կտակարան"} />
-        <Cards3 title={"Հավատքի հայրեր"} />
-        <Cards2 title={"Հին Կտակարան"} />
-      </div>
-      <Footer />
-    </div>
-  );
+		return <CardsList title={title} booksMarkup={booksMarkup} />;
+	};
+
+	/* Books by category */
+	const gospelBooks = getBooks(
+		booksData,
+		"Հիմնականը",
+		"Հիմնականը Graflix-ում:"
+	);
+
+	const tutorialsBooks = getBooks(booksData, "tutorials", "Նոր Կտակարան ");
+
+	const tasksBooks = getBooks(booksData, "tasks", "Հավատքի Հայրեր");
+
+	const tasksBook = getBooks(booksData, "taskBook", "Հին Կտակարան");
+
+	return (
+		<div className="home">
+			<Navbar />
+			<Hero />
+
+			<div className="more-cards">
+				{gospelBooks}
+				{tutorialsBooks}
+				{tasksBooks}
+				{tasksBook}
+			</div>
+			<Footer />
+		</div>
+	);
 };
 
 export default Home;
