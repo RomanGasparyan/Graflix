@@ -13,7 +13,7 @@ const Book = () => {
 	const [content, setContent] = useState("");
 
 	// Получить псевдоним книги
-	const { slug, index = 0 } = useParams();
+	const { slug, index = null } = useParams();
 
 	// Найти книгу по псевдониму
 	const book = booksData.filter((book) => book.slug == slug)[0];
@@ -28,14 +28,19 @@ const Book = () => {
 	const chaptersBtns = getChaptersBtns();
 
 	// Получить имя файла с главой книги
-	const chapterFileName = book.chapters[index];
-	console.log("chapterFileName", chapterFileName);
+	let chapterFileName;
+	if (index !== null) {
+		chapterFileName = book.chapters[index];
+		console.log("chapterFileName", chapterFileName);
+	}
 
 	// Получить текст главы из файла
 	useEffect(() => {
-		fetch(chapterFileName)
-			.then((res) => res.text())
-			.then((text) => setContent(text));
+		if (chapterFileName !== undefined) {
+			fetch(chapterFileName)
+				.then((res) => res.text())
+				.then((text) => setContent(text));
+		}
 	}, [slug, index]);
 
 	return (
@@ -47,7 +52,7 @@ const Book = () => {
 			<div className="container">
 				<div className="button_i">{chaptersBtns}</div>
 				<div className="content_i">
-					<ReactMarkdown>{content}</ReactMarkdown>
+					<ReactMarkdown>{content && content}</ReactMarkdown>
 				</div>
 			</div>
 		</div>
