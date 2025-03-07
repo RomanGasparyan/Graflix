@@ -1,3 +1,7 @@
+.searchResult {
+	padding: 30px 0;
+}
+
 .player_title {
 	z-index: 5;
 	font-size: 44px;
@@ -14,12 +18,11 @@
 	margin: 0 auto;
 	padding: 30px 15px 30px;
 }
-.button_i {
+.button_inner {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: 5px;
-	margin-bottom: 40px;
+	gap: 10px;
 }
 .btn {
 	width: 35px;
@@ -42,14 +45,6 @@
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
-}
-.content_i {
-	background-color: #00ffff47;
-	color: #fff;
-	padding: 10px;
-	border-radius: 15px;
-	text-align: start;
-	font-size: 13px;
 }
 
 /* ++++++++++++++++++++MOBILE+++++++++++++++++++++++++++++++++++ */
