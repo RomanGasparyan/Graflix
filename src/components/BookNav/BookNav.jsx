@@ -5,6 +5,11 @@ import search_icon from "../../assets/search_icon.svg";
 const BookNav = () => {
 	const navigate = useNavigate();
 
+	const searchHandler = (formData) => {
+		const searchPhrase = formData.get("searchPhrase");
+		navigate(`/search/${searchPhrase}`);
+	};
+
 	return (
 		<div className="player_nav">
 			<img
@@ -19,16 +24,18 @@ const BookNav = () => {
 				}}
 			/>
 
-			<div
+			<form
 				data-aos="fade-left"
 				data-aos-delay="100"
 				data-aos-offset="0"
 				className="player_input"
+				action={searchHandler}
 			>
-				<input type="text" placeholder="Գտնել" />
-
-				<img className="search_icons" src={search_icon} alt="icons" />
-			</div>
+				<input name="searchPhrase"  type="text" placeholder="Գտնել" />
+				<button>
+					<img className="search_icons" src={search_icon} alt="icons" />
+				</button>
+			</form>
 		</div>
 	);
 };

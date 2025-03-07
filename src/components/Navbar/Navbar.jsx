@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import "./Navbar.css";
 import logo from "../../assets/logo10.png";
@@ -7,6 +8,8 @@ import cross_icon from "../../assets/cross_icon.svg";
 import profile_img from "../../assets/profile_img.png";
 
 const Navbar = () => {
+	const navigate = useNavigate();
+
 	const [showMobileMenu, setShowMobileMenu] = useState();
 
 	useEffect(() => {
@@ -33,6 +36,12 @@ const Navbar = () => {
 			}
 		});
 	}, []);
+
+	const searchHandler = (formData) => {
+		const searchPhrase = formData.get("searchPhrase");
+		console.log(searchPhrase);
+		navigate(`/search/${searchPhrase}`);
+	};
 
 	return (
 		<div
@@ -63,15 +72,22 @@ const Navbar = () => {
 				</ul>
 			</div>
 			<div className="navbar-right">
-				<div
+				<form
 					data-aos="fade-down"
 					data-aos-delay="600"
 					data-aos-offset="0"
 					className="box"
+					action={searchHandler}
 				>
-					<input type="text" placeholder="Գտնել..." />
-					<img className="icons" src={search_icon} alt="icons" />
-				</div>
+					<input
+						name="searchPhrase"
+						type="text"
+						placeholder="Գտնել..."
+					/>
+					<button className="search_icon">
+						<img className="icons" src={search_icon} alt="icons" />
+					</button>
+				</form>
 
 				<div className="navbar-profile">
 					<img

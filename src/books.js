@@ -1,5 +1,5 @@
 const books = [
-	// Հիմնականը
+	// ++++++++++++++++++++++++++++++++++++++++++++Հիմնականը
 	{
 		category: "Հիմնականը",
 		title: "Երգարան",
@@ -49,19 +49,25 @@ const books = [
 		cover: "/books/GospelofJohn/cover.jpg",
 		chapters: ["/books/GospelofJohn/01.md", "/books/GospelofJohn/02.md"],
 	},
+
+	// +++++++++++++++++++++++++++++НОВЫЙ ЗАВЕТ ++++++++++++++++++++++++++++++++++
 	{
 		category: "tutorials",
-		title: "PHP book title",
-		slug: "phpBook01",
-		cover: "/books/php/cover.jpg",
-		chapters: ["/books/php/01.md", "/books/php/02.md", "/books/php/03.md"],
+		title: "Մատթեոսի Ավետարան",
+		slug: "GospelMat",
+		cover: "/books/GospelMat/cover.jpg",
+		chapters: [
+			"/books/GospelMat/01.md",
+			"/books/GospelMat/02.md",
+			"/books/GospelMat/03.md",
+		],
 	},
 	{
 		category: "tutorials",
-		title: "JS book title",
-		slug: "jsBook01",
-		cover: "/books/js/cover.jpg",
-		chapters: ["/books/js/01.md", "/books/js/02.md"],
+		title: "Մարկոսի Ավետարան",
+		slug: "GospelMark",
+		cover: "/books/GospelMark/cover.jpg",
+		chapters: ["/books/GospelMark/01.md", "/books/GospelMark/02.md"],
 	},
 	{
 		category: "tutorials",
