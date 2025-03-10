@@ -66,7 +66,7 @@
 }
 
 .box {
-	height: 25px;
+	height: 30px;
 	display: flex;
 	cursor: pointer;
 	padding: 19px 11px;
@@ -77,11 +77,11 @@
 }
 
 /* .box:hover input {
-  width: 160px;
+	width: 160px;
 } */
 
 .box input {
-	width: 40px;
+	width: 52px;
 	outline: 0;
 	border: 0;
 	font-weight: 500;
@@ -244,7 +244,9 @@
 	}
 	.navbar-right .profile {
 		width: 29px;
+		margin-left: -10px;
 	}
+
 	.logo {
 		width: 169px;
 		top: -61px;
@@ -265,14 +267,12 @@
 		width: 16px;
 	}
 
-	.navbar-right .profile {
-		width: 20px;
-	}
 	.box {
 		padding: 6px 7px;
 	}
 	.navbar-right .profile {
 		width: 29px;
+		margin-left: -10px;
 	}
 	.logo {
 		width: 169px;
@@ -291,6 +291,7 @@
 
 	.navbar-right .profile {
 		width: 29px;
+		margin-left: -10px;
 	}
 	.box {
 		padding: 10px 13px;
@@ -302,6 +303,7 @@
 	}
 	.navbar-right .profile {
 		width: 29px;
+		margin-left: -10px;
 	}
 	.logo {
 		width: 169px;
