@@ -17,7 +17,6 @@ const Book = () => {
 
 	// Найти книгу по псевдониму
 	const book = booksData.filter((book) => book.slug == slug)[0];
-	console.log("book", book);
 
 	// Сгенерировать разметку кнопок по главам
 	const getChaptersBtns = () => {
@@ -31,7 +30,6 @@ const Book = () => {
 	let chapterFileName;
 	if (index !== null) {
 		chapterFileName = book.chapters[index];
-		console.log("chapterFileName", chapterFileName);
 	}
 
 	// Получить текст главы из файла
@@ -51,7 +49,7 @@ const Book = () => {
 
 			<div className="container">
 				<div className="button_i">{chaptersBtns}</div>
-				<div className="content_i">
+				<div id="content" className="content_i">
 					<ReactMarkdown>{content && content}</ReactMarkdown>
 				</div>
 			</div>
