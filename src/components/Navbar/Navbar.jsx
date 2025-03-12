@@ -39,7 +39,6 @@ const Navbar = () => {
 
 	const searchHandler = (formData) => {
 		const searchPhrase = formData.get("searchPhrase");
-		console.log(searchPhrase);
 		navigate(`/search/${searchPhrase}`);
 	};
 

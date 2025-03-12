@@ -32,12 +32,12 @@
 }
 .search_icons {
 	height: 28px;
+	pointer-events: none;
 }
 
 .player_input input::placeholder {
 	color: #00000094;
 }
-
 
 /* ++++++++++++++++++++MOBILE+++++++++++++++++++++++++++++++++++ */
 

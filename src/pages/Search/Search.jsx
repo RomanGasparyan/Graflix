@@ -92,7 +92,9 @@ const Search = () => {
 		<div className="player">
 			<BookNav />
 
-			<h1 className="player_title">Search results for: {searchPhrase}</h1>
+			<h1 className="player_title">
+				Որոնման արդյունքները: {searchPhrase}
+			</h1>
 			<div className="container">
 				<div id="content">{}</div>
 				<div id="results">
@@ -100,9 +102,9 @@ const Search = () => {
 						searchResult.map((item, index) => {
 							return (
 								<div className="searchResult" key={index}>
-									<h3>Book title: {item.title}</h3>
-									<p>Chapter number: {item.chapterNumber}</p>
-									{item.content && <h3>Chapter text:</h3>}
+									<h3>Գրքի վերնագիր: {item.title}</h3>
+									<p>Գլխի համարը: {item.chapterNumber}</p>
+									{item.content && <h3>Գտնված տեքստ:</h3>}
 									<ReactMarkdown>
 										{item.content && item.content}
 									</ReactMarkdown>

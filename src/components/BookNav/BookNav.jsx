@@ -13,9 +13,9 @@ const BookNav = () => {
 	return (
 		<div className="player_nav">
 			<img
-				data-aos="fade-right"
-				data-aos-delay="100"
-				data-aos-offset="0"
+				// data-aos="fade-right"
+				// data-aos-delay="100"
+				// data-aos-offset="0"
 				className="player_arrow"
 				src={back_arrow_icon}
 				alt="icon"
@@ -25,15 +25,19 @@ const BookNav = () => {
 			/>
 
 			<form
-				data-aos="fade-left"
-				data-aos-delay="100"
-				data-aos-offset="0"
+				// data-aos="fade-left"
+				// data-aos-delay="100"
+				// data-aos-offset="0"
 				className="player_input"
 				action={searchHandler}
 			>
-				<input name="searchPhrase"  type="text" placeholder="Գտնել" />
+				<input name="searchPhrase" type="text" placeholder="Գտնել" />
 				<button>
-					<img className="search_icons" src={search_icon} alt="icons" />
+					<img
+						className="search_icons"
+						src={search_icon}
+						alt="icons"
+					/>
 				</button>
 			</form>
 		</div>
