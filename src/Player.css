@@ -70,10 +70,10 @@
 	justify-content: center;
 	align-items: center;
 	background: transparent;
-	border: 2px solid#fff;
+	border: 1px solid#fff;
 	border-radius: 8px;
 	background-size: 250%;
-	background-image: linear-gradient(to left, #00ffff, #000099, #00ffff);
+	background: #4040eb;
 }
 .btn:active {
 	background: #f76415;
