@@ -73,12 +73,13 @@
 	border: 1px solid#fff;
 	border-radius: 8px;
 	background-size: 250%;
-	background: #4040eb;
+	background: #477ae9;
 }
 .btn:active {
 	background: #f76415;
 	box-shadow: 0 5px #ddd;
 	transform: translateY(-4px);
+	transform: scale(2);
 }
 .desc {
 	display: flex;
