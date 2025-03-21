@@ -1016,7 +1016,16 @@ const books = [
 		title: "Մեսրոպ Մաշտոց",
 		slug: "MesropMashtoc",
 		cover: "/books/MesropMashtoc/cover.jpg",
-		chapters: ["/books/MesropMashtoc/01.md", "/books/MesropMashtoc/02.md"],
+		chapters: [
+			"/books/MesropMashtoc/01.md",
+			"/books/MesropMashtoc/02.md",
+			"/books/MesropMashtoc/03.md",
+			"/books/MesropMashtoc/04.md",
+			"/books/MesropMashtoc/05.md",
+			"/books/MesropMashtoc/06.md",
+			"/books/MesropMashtoc/07.md",
+			"/books/MesropMashtoc/08.md",
+		],
 	},
 	{
 		category: "Հիմնականը",
