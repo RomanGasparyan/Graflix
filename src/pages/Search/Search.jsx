@@ -96,15 +96,25 @@ const Search = () => {
 				Որոնման արդյունքները: {searchPhrase}
 			</h1>
 			<div className="container">
-				<div id="content">{}</div>
-				<div id="results">
+				<div className="content" id="content">
+					{}
+				</div>
+				<div className="results" id="results">
 					{searchResult &&
 						searchResult.map((item, index) => {
 							return (
 								<div className="searchResult" key={index}>
-									<h3>Գրքի վերնագիր: {item.title}</h3>
-									<p>Գլխի համարը: {item.chapterNumber}</p>
-									{item.content && <h3>Գտնված տեքստ:</h3>}
+									<h3 className="searchtextresult_1">
+										Գրքի վերնագիր: {item.title}
+									</h3>
+									<p className="searchtextresult_2">
+										Գլխի համարը: {item.chapterNumber}
+									</p>
+									{item.content && (
+										<h3 className="searchtextresult_3">
+											Գտնված տեքստ:
+										</h3>
+									)}
 									<ReactMarkdown>
 										{item.content && item.content}
 									</ReactMarkdown>
