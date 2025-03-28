@@ -36,6 +36,8 @@ const Home = () => {
 
 	const tasksBook = getBooks(booksData, "taskBook", "Հին Կտակարան");
 
+	const kids = getBooks(booksData, "kids", "Երեխաների Համար");
+
 	return (
 		<div className="home">
 			<Navbar />
@@ -46,6 +48,7 @@ const Home = () => {
 				{tutorialsBooks}
 				{tasksBooks}
 				{tasksBook}
+				{kids}
 			</div>
 			<Footer />
 		</div>
