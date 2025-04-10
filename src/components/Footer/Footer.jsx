@@ -6,32 +6,32 @@ import instagram_icon from "../../assets/instagram_icon.png";
 import facebook_icon from "../../assets/facebook_icon.png";
 
 const Footer = () => {
-  return (
-    <div className="footer">
-      <div className="footer-icons">
-        <img src={facebook_icon} alt="icon" />
-        <img src={instagram_icon} alt="icon" />
-        <img src={twitter_icon} alt="icon" />
-        <img src={youtube_icon} alt="icon" />
-      </div>
+	return (
+		<div className="footer">
+			<div className="footer-icons">
+				<img src={facebook_icon} alt="icon" />
+				<img src={instagram_icon} alt="icon" />
+				<img src={twitter_icon} alt="icon" />
+				<img src={youtube_icon} alt="icon" />
+			</div>
 
-      <ul>
-        <li>Նկարագրություն</li>
+			<ul>
+				<li>Երգարան</li>
+				<li>Հայոց Հայրեր</li>
+				<li>Պատմության էջ</li>
+				<li>Նոր Կտակարան</li>
+				<li>Հին Կտակարան</li>
+				<li>Երեխաների Համար</li>
+				<li>Լսել</li>
+				{/* <li>Օգնություն</li>
         <li>Օգնություն</li>
         <li>Օգնություն</li>
         <li>Օգնություն</li>
-        <li>Օգնություն</li>
-        <li>Օգնություն</li>
-        <li>Օգնություն</li>
-        <li>Օգնություն</li>
-        <li>Օգնություն</li>
-        <li>Օգնություն</li>
-        <li>Օգնություն</li>
-        <li>Օգնություն</li>
-      </ul>
-      <p className="copyright-text">© 2025 Graflix ™, Inc.</p>
-    </div>
-  );
+        <li>Օգնություն</li> */}
+			</ul>
+			<p className="copyright-text">© 2025 Graflix ™, Inc.</p>
+		</div>
+	);
 };
 
 export default Footer;
