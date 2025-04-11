@@ -1529,17 +1529,34 @@ const books = [
 	// +++++++++++++++++++++++++++ОТЦЫ ВЕРЫ++++++++++++++++++++++++++++++++++++++++++++
 	{
 		category: "tasks",
-		title: "Lusavorich",
+		title: "Գրիգոր Լուսավորիչ",
 		slug: "Lusavorich",
 		cover: "/books/Lusavorich/cover.jpg",
-		chapters: ["/books/Lusavorich/01.md", "/books/Lusavorich/02.md"],
+		chapters: [
+			"/books/Lusavorich/01.md",
+			"/books/Lusavorich/02.md",
+			"/books/Lusavorich/03.md",
+		],
 	},
 	{
 		category: "tasks",
-		title: "Tumanyan",
+		title: "Հովհաննես Թումանյան",
 		slug: "Tumanyan",
 		cover: "/books/Tumanyan/cover.jpg",
-		chapters: ["/books/Tumanyan/01.md", "/books/Tumanyan/02.md"],
+		chapters: [
+			"/books/Tumanyan/01.md",
+			"/books/Tumanyan/02.md",
+			"/books/Tumanyan/03.md",
+			"/books/Tumanyan/04.md",
+			"/books/Tumanyan/05.md",
+			"/books/Tumanyan/06.md",
+			"/books/Tumanyan/07.md",
+			"/books/Tumanyan/08.md",
+			"/books/Tumanyan/09.md",
+			"/books/Tumanyan/10.md",
+			"/books/Tumanyan/11.md",
+			"/books/Tumanyan/12.md",
+		],
 	},
 	{
 		category: "tasks",
