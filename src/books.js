@@ -1560,24 +1560,25 @@ const books = [
 	},
 	{
 		category: "tasks",
-		title: "Narekaci",
+		title: "Գրիգոր Նարեկացի",
 		slug: "Narekaci",
 		cover: "/books/Narekaci/cover.jpg",
 		chapters: [
 			"/books/Narekaci/01.md",
 			"/books/Narekaci/02.md",
-			"/books/Narekaci/02.md",
+			"/books/Narekaci/03.md",
+			"/books/Narekaci/04.md",
 		],
 	},
 	{
 		category: "tasks",
-		title: "Nerses",
+		title: "Ներսես Շնորհալի",
 		slug: "Nerses",
 		cover: "/books/Nerses/cover.jpg",
 		chapters: [
 			"/books/Nerses/01.md",
 			"/books/Nerses/02.md",
-			"/books/Nerses/02.md",
+			"/books/Nerses/03.md",
 		],
 	},
 	{
