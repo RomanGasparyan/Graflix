@@ -1011,22 +1011,46 @@ const books = [
 			"/books/Song/1000.md",
 		],
 	},
+
 	{
 		category: "Հիմնականը",
-		title: "Մեսրոպ Մաշտոց",
-		slug: "MesropMashtoc",
-		cover: "/books/MesropMashtoc/cover.jpg",
+		title: "Ձեռագիր Երգարան",
+		slug: "Songarm",
+		cover: "/books/Songarm/cover.jpg",
 		chapters: [
-			"/books/MesropMashtoc/01.md",
-			"/books/MesropMashtoc/02.md",
-			"/books/MesropMashtoc/03.md",
-			"/books/MesropMashtoc/04.md",
-			"/books/MesropMashtoc/05.md",
-			"/books/MesropMashtoc/06.md",
-			"/books/MesropMashtoc/07.md",
-			"/books/MesropMashtoc/08.md",
+			"/books/Songarm/01.md",
+			"/books/Songarm/02.md",
+			"/books/Songarm/03.md",
+			"/books/Songarm/04.md",
+			"/books/Songarm/05.md",
+			"/books/Songarm/06.md",
+			"/books/Songarm/07.md",
+			"/books/Songarm/08.md",
+			"/books/Songarm/09.md",
+			"/books/Songarm/10.md",
+			"/books/Songarm/11.md",
+			"/books/Songarm/12.md",
+			"/books/Songarm/13.md",
+			"/books/Songarm/14.md",
 		],
 	},
+
+	{
+		category: "Հիմնականը",
+		title: "Քրիստոնեությունը Հայաստանում",
+		slug: "Historyarm",
+		cover: "/books/Historyarm/cover.jpg",
+		chapters: ["/books/Historyarm/01.md", "/books/Historyarm/02.md"],
+	},
+
+	{
+		category: "Հիմնականը",
+		title: "Քրիստոնեության պամությունը",
+		slug: "Historyworld",
+		cover: "/books/Historyworld/cover.jpg",
+		chapters: ["/books/Historyworld/01.md", "/books/Historyworld/02.md"],
+	},
+
 	{
 		category: "Հիմնականը",
 		title: "Սաղմոսներ",
@@ -1538,6 +1562,37 @@ const books = [
 			"/books/Lusavorich/03.md",
 		],
 	},
+
+	{
+		category: "tasks",
+		title: "Մեսրոպ Մաշտոց",
+		slug: "MesropMashtoc",
+		cover: "/books/MesropMashtoc/cover.jpg",
+		chapters: [
+			"/books/MesropMashtoc/01.md",
+			"/books/MesropMashtoc/02.md",
+			"/books/MesropMashtoc/03.md",
+			"/books/MesropMashtoc/04.md",
+			"/books/MesropMashtoc/05.md",
+			"/books/MesropMashtoc/06.md",
+			"/books/MesropMashtoc/07.md",
+			"/books/MesropMashtoc/08.md",
+		],
+	},
+
+	{
+		category: "tasks",
+		title: "Գրիգոր Նարեկացի",
+		slug: "Narekaci",
+		cover: "/books/Narekaci/cover.jpg",
+		chapters: [
+			"/books/Narekaci/01.md",
+			"/books/Narekaci/02.md",
+			"/books/Narekaci/03.md",
+			"/books/Narekaci/04.md",
+		],
+	},
+
 	{
 		category: "tasks",
 		title: "Հովհաննես Թումանյան",
@@ -1560,18 +1615,6 @@ const books = [
 	},
 	{
 		category: "tasks",
-		title: "Գրիգոր Նարեկացի",
-		slug: "Narekaci",
-		cover: "/books/Narekaci/cover.jpg",
-		chapters: [
-			"/books/Narekaci/01.md",
-			"/books/Narekaci/02.md",
-			"/books/Narekaci/03.md",
-			"/books/Narekaci/04.md",
-		],
-	},
-	{
-		category: "tasks",
 		title: "Ներսես Շնորհալի",
 		slug: "Nerses",
 		cover: "/books/Nerses/cover.jpg",
@@ -1583,13 +1626,13 @@ const books = [
 	},
 	{
 		category: "tasks",
-		title: "Xorenaci",
+		title: "Մովսես Խորենացի",
 		slug: "Xorenaci",
 		cover: "/books/Xorenaci/cover.jpg",
 		chapters: [
 			"/books/Xorenaci/01.md",
 			"/books/Xorenaci/02.md",
-			"/books/Xorenaci/02.md",
+			"/books/Xorenaci/03.md",
 		],
 	},
 
