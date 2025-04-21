@@ -1045,7 +1045,7 @@ const books = [
 
 	{
 		category: "Հիմնականը",
-		title: "Քրիստոնեության պամությունը",
+		title: "Քրիստոնեության պատմությունը",
 		slug: "Historyworld",
 		cover: "/books/Historyworld/cover.jpg",
 		chapters: ["/books/Historyworld/01.md", "/books/Historyworld/02.md"],
@@ -2170,6 +2170,40 @@ const books = [
 			"/books/Kidsbible/249.md",
 			"/books/Kidsbible/250.md",
 		],
+	},
+
+	//+++++++++++++++++++++++++ФИЛЬМЫ++++++++++++++++++++++++++++++++++++++++++++++
+	{
+		category: "films",
+		title: "Դավթի Տունը",
+		slug: "DavidHouse",
+		cover: "/books/DavidHouse/cover.jpg",
+		chapters: [
+			"/books/DavidHouse/01.md",
+			"/books/DavidHouse/02.md",
+			"/books/DavidHouse/03.md",
+			"/books/DavidHouse/04.md",
+			"/books/DavidHouse/05.md",
+			"/books/DavidHouse/06.md",
+			"/books/DavidHouse/07.md",
+			"/books/DavidHouse/08.md",
+		],
+	},
+
+	{
+		category: "films",
+		title: "Աստծո Որդին",
+		slug: "SonOfGod",
+		cover: "/books/SonOfGod/cover.jpg",
+		chapters: ["/books/SonOfGod/01.md"],
+	},
+
+	{
+		category: "films",
+		title: "Քրիստոսի չարչարանքները",
+		slug: "StrastyXristovi",
+		cover: "/books/StrastyXristovi/cover.jpg",
+		chapters: ["/books/StrastyXristovi/01.md"],
 	},
 ];
 

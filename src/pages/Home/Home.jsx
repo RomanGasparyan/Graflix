@@ -38,6 +38,8 @@ const Home = () => {
 
 	const kids = getBooks(booksData, "kids", "Երեխաների Համար");
 
+	const films = getBooks(booksData, "films", "Ֆիլմեր");
+
 	return (
 		<div className="home">
 			<Navbar />
@@ -49,6 +51,7 @@ const Home = () => {
 				{tasksBooks}
 				{tasksBook}
 				{kids}
+				{films}
 			</div>
 			<Footer />
 		</div>

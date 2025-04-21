@@ -23,11 +23,7 @@ const Footer = () => {
 				<li>Հին Կտակարան</li>
 				<li>Երեխաների Համար</li>
 				<li>Լսել</li>
-				{/* <li>Օգնություն</li>
-        <li>Օգնություն</li>
-        <li>Օգնություն</li>
-        <li>Օգնություն</li>
-        <li>Օգնություն</li> */}
+				<li>Ֆիլմեր</li>
 			</ul>
 			<p className="copyright-text">© 2025 Graflix ™, Inc.</p>
 		</div>
