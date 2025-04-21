@@ -1912,7 +1912,7 @@ const books = [
 	{
 		category: "kids",
 		title: "Մանկական Աստվածաշունչ",
-		slug: "Մանկական Աստվածաշունչ",
+		slug: "Kidsbible",
 		cover: "/books/Kidsbible/cover.jpg",
 		chapters: [
 			"/books/Kidsbible/01.md",
@@ -2170,6 +2170,14 @@ const books = [
 			"/books/Kidsbible/249.md",
 			"/books/Kidsbible/250.md",
 		],
+	},
+
+	{
+		category: "kids",
+		title: "Գիրք Գրոց",
+		slug: "GirkGroc",
+		cover: "/books/GirkGroc/cover.jpg",
+		chapters: ["/books/GirkGroc/01.md"],
 	},
 
 	//+++++++++++++++++++++++++ФИЛЬМЫ++++++++++++++++++++++++++++++++++++++++++++++
