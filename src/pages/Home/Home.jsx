@@ -47,11 +47,11 @@ const Home = () => {
 
 			<div className="more-cards">
 				{gospelBooks}
-				{tutorialsBooks}
-				{tasksBooks}
-				{tasksBook}
-				{kids}
 				{films}
+				{tasksBooks}
+				{kids}
+				{tutorialsBooks}
+				{tasksBook}
 			</div>
 			<Footer />
 		</div>
