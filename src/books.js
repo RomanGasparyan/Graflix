@@ -2241,6 +2241,14 @@ const books = [
 		cover: "/books/StrastyXristovi/cover.jpg",
 		chapters: ["/books/StrastyXristovi/01.md"],
 	},
+
+	{
+		category: "films",
+		title: "Սամսոն",
+		slug: "Samson",
+		cover: "/books/Samson/cover.png",
+		chapters: ["/books/Samson/01.md"],
+	},
 ];
 
 export default books;
