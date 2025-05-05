@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 import "./Navbar.css";
 import logo from "../../assets/logo10.png";
@@ -62,12 +62,33 @@ const Navbar = () => {
 				/>
 
 				<ul>
-					<li>Երգարան</li>
-					<li>Հայոց հայրեր</li>
-					<li>Եկեղեցու պատմությունը</li>
-					<li>Նոր Կտակարան</li>
-					<li>Հին Կտակարան</li>
-					<li>Լսել</li>
+					<Link to="/book/Song">
+						<li>Երգարան</li>
+					</Link>
+					<Link to="/book/Lusavorich">
+						<li>Հայոց Հայրեր</li>
+					</Link>
+					<Link to="/book/Historyarm">
+						<li>Պատմության էջ</li>
+					</Link>
+					<Link to="/book/GospelMat">
+						<li>Նոր Կտակարան</li>
+					</Link>
+					<Link to="/book/Genesis">
+						{" "}
+						<li>Հին Կտակարան</li>
+					</Link>
+					<Link to="/book/Kidsbible">
+						{" "}
+						<li>Երեխաների Համար</li>
+					</Link>
+					<Link to="/book/Lsel">
+						{" "}
+						<li>Լսել</li>
+					</Link>
+					<Link to="/book/DavidHouse/chapter/0/#content">
+						<li> Ֆիլմեր</li>
+					</Link>
 				</ul>
 			</div>
 			<div className="navbar-right">
@@ -96,7 +117,7 @@ const Navbar = () => {
 						alt="icons"
 					/>
 
-					{/* mobile menu */}
+					{/* mobile menu ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */}
 
 					<div
 						className={`md:hidden  ${
@@ -113,49 +134,71 @@ const Navbar = () => {
 						</div>
 
 						<ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
-							<a
+							<Link
+								to="/book/Song"
 								onClick={() => setShowMobileMenu(false)}
-								href="#Header"
 								className="px-4 py2 rounded-full inline-block"
 							>
-								Երգարան
-							</a>
-							<a
+								<li>Երգարան</li>
+							</Link>
+							<Link
 								onClick={() => setShowMobileMenu(false)}
-								href="#About"
+								to="/book/Songarm"
 								className="px-4 py2 rounded-full inline-block"
 							>
-								Հայոց հայրեր
-							</a>
-							<a
+								Ձեռագիր Երգարան
+							</Link>
+							<Link
 								onClick={() => setShowMobileMenu(false)}
-								href="#Projects"
-								className="px-4 py2 rounded-full inline-block"
-							>
-								Եկեղեցու պատմությունը
-							</a>
-							<a
-								onClick={() => setShowMobileMenu(false)}
-								href="#Testimonails"
-								className="px-4 py2 rounded-full inline-block"
-							>
-								Նոր Կտակարան
-							</a>
-							<a
-								onClick={() => setShowMobileMenu(false)}
-								href="#Testimonails"
-								className="px-4 py2 rounded-full inline-block"
-							>
-								Հին Կտակարան
-							</a>
-
-							<a
-								onClick={() => setShowMobileMenu(false)}
-								href="#Testimonails"
+								to="/book/Lsel"
 								className="px-4 py2 rounded-full inline-block"
 							>
 								Լսել Աստվածաշունչը
-							</a>
+							</Link>
+							<Link
+								to="/book/Kidsbible"
+								onClick={() => setShowMobileMenu(false)}
+								className="px-4 py2 rounded-full inline-block"
+							>
+								Երեխաների Համար
+							</Link>
+							<Link
+								to="/book/Lusavorich"
+								onClick={() => setShowMobileMenu(false)}
+								className="px-4 py2 rounded-full inline-block"
+							>
+								Հայոց հայրեր
+							</Link>
+
+							<Link
+								onClick={() => setShowMobileMenu(false)}
+								to="/book/Historyworld"
+								className="px-4 py2 rounded-full inline-block"
+							>
+								Եկեղեցու պատմությունը
+							</Link>
+							<Link
+								onClick={() => setShowMobileMenu(false)}
+								to="/book/GospelMat"
+								className="px-4 py2 rounded-full inline-block"
+							>
+								Նոր Կտակարան
+							</Link>
+							<Link
+								onClick={() => setShowMobileMenu(false)}
+								to="/book/Genesis"
+								className="px-4 py2 rounded-full inline-block"
+							>
+								Հին Կտակարան
+							</Link>
+
+							<Link
+								to="/book/DavidHouse/chapter/0/#content"
+								onClick={() => setShowMobileMenu(false)}
+								className="px-4 py2 rounded-full inline-block"
+							>
+								Ֆիլմեր
+							</Link>
 						</ul>
 
 						<p className="inc  text-center mt-50px font-bold ">

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Footer.css";
+
+import { Link } from "react-router-dom";
 import youtube_icon from "../../assets/youtube_icon.png";
 import twitter_icon from "../../assets/twitter_icon.png";
 import instagram_icon from "../../assets/instagram_icon.png";
@@ -16,14 +18,40 @@ const Footer = () => {
 			</div>
 
 			<ul>
-				<li>Երգարան</li>
-				<li>Հայոց Հայրեր</li>
-				<li>Պատմության էջ</li>
-				<li>Նոր Կտակարան</li>
-				<li>Հին Կտակարան</li>
-				<li>Երեխաների Համար</li>
-				<li>Լսել</li>
-				<li>Ֆիլմեր</li>
+				<Link to="/book/Song">
+					<li>Երգարան</li>
+				</Link>
+				<Link to="/book/Lusavorich">
+					<li>Հայոց Հայրեր</li>
+				</Link>
+				<Link to="/book/Historyarm">
+					<li>Պատմության էջ</li>
+				</Link>
+				<Link to="/book/GospelMat">
+					<li>Նոր Կտակարան</li>
+				</Link>
+				<Link to="/book/Genesis">
+					{" "}
+					<li>Հին Կտակարան</li>
+				</Link>
+				<Link to="/book/Kidsbible">
+					{" "}
+					<li>Երեխաների Համար</li>
+				</Link>
+				<Link to="/book/Lsel">
+					{" "}
+					<li>Լսել</li>
+				</Link>
+				<Link to="/book/DavidHouse/chapter/0/#content">
+					<li> Ֆիլմեր</li>
+				</Link>
+				<Link
+					onClick={() => setShowMobileMenu(false)}
+					to="/book/Songarm"
+					className="px-4 py2 rounded-full inline-block"
+				>
+					Ձեռագիր Երգարան
+				</Link>
 			</ul>
 			<p className="copyright-text">© 2025 Graflix ™, Inc.</p>
 		</div>
