@@ -1856,7 +1856,7 @@ const books = [
 
 	{
 		category: "taskBook",
-		title: "Genesis",
+		title: "ԳԻՐՔ ԾՆՆԴՈՑ",
 		slug: "Genesis",
 		cover: "/books/Genesis/cover.jpg",
 		chapters: [
@@ -1919,7 +1919,11 @@ const books = [
 		title: "Exodus",
 		slug: "Exodus",
 		cover: "/books/Exodus/cover.jpg",
-		chapters: ["/books/Exodus/01.md", "/books/Exodus/02.md"],
+		chapters: [
+			"/books/Exodus/01.md",
+			"/books/Exodus/02.md",
+			"/books/Exodus/03.md",
+		],
 	},
 	{
 		category: "taskBook",
@@ -2443,6 +2447,14 @@ const books = [
 
 	{
 		category: "kids",
+		title: "Թագավորների Արքա",
+		slug: "KingOfTheKings",
+		cover: "/books/KingOfTheKings/cover.jpg",
+		chapters: ["/books/KingOfTheKings/01.md"],
+	},
+
+	{
+		category: "kids",
 		title: "Գիրք Գրոց",
 		slug: "GirkGroc",
 		cover: "/books/GirkGroc/cover.jpg",
@@ -2509,6 +2521,14 @@ const books = [
 		slug: "StrastyXristovi",
 		cover: "/books/StrastyXristovi/cover.jpg",
 		chapters: ["/books/StrastyXristovi/01.md"],
+	},
+
+	{
+		category: "films",
+		title: "Հիսուս Քրիստոսի կյանքը",
+		slug: "JesusLife",
+		cover: "/books/JesusLife/cover.jpg",
+		chapters: ["/books/JesusLife/01.md"],
 	},
 
 	{
