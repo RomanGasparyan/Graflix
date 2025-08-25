@@ -2455,6 +2455,14 @@ const books = [
 
 	{
 		category: "kids",
+		title: "Պիլիգրիմի Ճանապարհորդությունը",
+		slug: "Piligrim",
+		cover: "/books/Piligrim/cover.png",
+		chapters: ["/books/Piligrim/01.md"],
+	},
+
+	{
+		category: "kids",
 		title: "Գիրք Գրոց",
 		slug: "GirkGroc",
 		cover: "/books/GirkGroc/cover.jpg",
