@@ -2517,6 +2517,22 @@ const books = [
 
 	{
 		category: "films",
+		title: "Բարաբբա",
+		slug: "Barabba",
+		cover: "/books/Barabba/cover.jpg",
+		chapters: ["/books/Barabba/01.md"],
+	},
+
+	{
+		category: "films",
+		title: "Նոյ",
+		slug: "Noy",
+		cover: "/books/Noy/cover.jpg",
+		chapters: ["/books/Noy/01.md"],
+	},
+
+	{
+		category: "films",
 		title: "Աստծո Որդին",
 		slug: "SonOfGod",
 		cover: "/books/SonOfGod/cover.jpg",
