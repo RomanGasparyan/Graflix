@@ -40,6 +40,8 @@ const Home = () => {
 
 	const films = getBooks(booksData, "films", "Ֆիլմեր");
 
+	const books = getBooks(booksData, "books", "Գրքեր");
+
 	return (
 		<div className="home">
 			<Navbar />
@@ -50,6 +52,7 @@ const Home = () => {
 				{films}
 				{tasksBooks}
 				{kids}
+				{books}
 				{tutorialsBooks}
 				{tasksBook}
 			</div>

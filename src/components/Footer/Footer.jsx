@@ -52,6 +52,14 @@ const Footer = () => {
 				>
 					Ձեռագիր Երգարան
 				</Link>
+
+				<Link
+					onClick={() => setShowMobileMenu(false)}
+					to="/book/JesusNeZnal/chapter/0/#content"
+					className="px-4 py2 rounded-full inline-block"
+				>
+					Գրքեր
+				</Link>
 			</ul>
 			<p className="copyright-text">© 2025 Graflix ™, Inc.</p>
 		</div>

@@ -71,6 +71,11 @@ const Navbar = () => {
 					<Link to="/book/Historyarm">
 						<li>Պատմության էջ</li>
 					</Link>
+
+					<Link to="/book/JesusNeZnal">
+						<li>Գրքեր</li>
+					</Link>
+
 					<Link to="/book/GospelMat">
 						<li>Նոր Կտակարան</li>
 					</Link>
@@ -198,6 +203,14 @@ const Navbar = () => {
 								className="px-4 py2 rounded-full inline-block"
 							>
 								Ֆիլմեր
+							</Link>
+
+							<Link
+								to="/book/JesusNeZnal/chapter/0/#content"
+								onClick={() => setShowMobileMenu(false)}
+								className="px-4 py2 rounded-full inline-block"
+							>
+								Գրքեր
 							</Link>
 						</ul>
 

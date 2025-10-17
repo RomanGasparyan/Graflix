@@ -2566,6 +2566,42 @@ const books = [
 			"/books/GirkGroc/26.md",
 		],
 	},
+	//++++++++++++++++++++++++++++КНИГИ+++++++++++++++++++++++++++++++
+
+	{
+		category: "books",
+		title: "Иисус, Которого я не знал",
+		slug: "JesusNeZnal",
+		cover: "/books/JesusNeZnal/cover.jpg",
+		chapters: ["/books/JesusNeZnal/01.md", "/books/JesusNeZnal/02.md"],
+	},
+
+	{
+		category: "books",
+		title: "Путешествие Пилигрима",
+		slug: "PiligrimRoad",
+		cover: "/books/PiligrimRoad/cover.jpg",
+		chapters: ["/books/PiligrimRoad/01.md", "/books/PiligrimRoad/02.md"],
+	},
+
+	{
+		category: "books",
+		title: "Сын Человеческий",
+		slug: "SonOfGodBook",
+		cover: "/books/SonOfGodBook/cover.jpg",
+		chapters: ["/books/SonOfGodBook/01.md", "/books/SonOfGodBook/02.md"],
+	},
+
+	{
+		category: "books",
+		title: "Разочарование в Боге",
+		slug: "RazocharovanieVBoge",
+		cover: "/books/RazocharovanieVBoge/cover.jpg",
+		chapters: [
+			"/books/RazocharovanieVBoge/01.md",
+			"/books/RazocharovanieVBoge/02.md",
+		],
+	},
 
 	//+++++++++++++++++++++++++ФИЛЬМЫ++++++++++++++++++++++++++++++++++++++++++++++
 	{
